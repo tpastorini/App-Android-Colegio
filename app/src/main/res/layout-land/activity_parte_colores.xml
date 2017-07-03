@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_cuerpo_inicio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/myActionBar1"
+            layout="@layout/my_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- CABECERA -->
+            <LinearLayout
+                android:id="@+id/cabecera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:layout_marginTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gris_claro"
+                    android:gravity="center_horizontal|center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descrip_colores_principales"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal|center_vertical"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <!-- FIN CABECERA -->
+
+            <!-- Colores Principales CMYK -->
+            <LinearLayout
+                android:id="@+id/colores_principales"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/cabecera"
+                android:background="@color/white"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="4dp">
+
+                    <ImageView
+                        android:id="@+id/rojo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/rojo"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rojo"
+                        android:textSize="18dp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="4dp"
+                    android:paddingRight="4dp">
+
+                    <ImageView
+                        android:id="@+id/amarillo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/amarillo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amarillo"
+                        android:textSize="18dp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="4dp">
+
+                    <ImageView
+                        android:id="@+id/azul"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/azul"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/azul"
+                        android:textSize="18dp"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- GridView para los colores y sus nombres -->
+            <!-- Colores Derivados de los CMYK -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/colores_principales">
+
+                <TextView
+                    android:id="@+id/titulo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/descrip_colores_secundarios"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/gris_claro"/>
+
+                <GridView
+                    android:id="@+id/grid_colores"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnWidth="15dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="8dp"
+                    android:numColumns="4"
+                    android:layout_margin="10dp"
+                    android:verticalSpacing="20dp"
+                    android:layout_below="@+id/titulo2"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

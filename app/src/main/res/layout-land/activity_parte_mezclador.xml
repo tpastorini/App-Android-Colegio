@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/myActionBar1"
+            layout="@layout/my_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- CABECERA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cabecera"
+            android:elevation="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/pregunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="@string/pregunta"
+                    android:background="@color/gris_claro"
+                    android:textSize="30dp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!-- FIN CABECERA -->
+
+        <RelativeLayout
+            android:id="@+id/cuerpo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/mezcla">
+
+                <ImageButton
+                    android:id="@+id/color_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/rojo"/>
+
+                <TextView
+                    android:id="@+id/mas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text=" + "
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro"
+                    android:paddingTop="10dp"/>
+
+                <ImageButton
+                    android:id="@+id/color_2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/amarillo"/>
+
+                <TextView
+                    android:id="@+id/mas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text=" = "
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro"/>
+
+                <ImageView
+                    android:id="@+id/resultado"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/naranja"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">GamePaint</string>
+
+    <!-- ******************************** -->
+    <!--  Textos de "activity_main.xml"   -->
+    <!-- ******************************** -->
+
+    <string name="dibujar">Dibujar</string>
+    <string name="colorear">Colorear</string>
+    <string name="juego">Juega con colores</string>
+    <string name="salir">Salir</string>
+
+    <string name="draw">Dibuja</string>
+    <string name="paint">Colorea</string>
+    <string name="play">Juega</string>
+
+    <!-- ******************************** -->
+    <!--        Botón de atrás"           -->
+    <!-- ******************************** -->
+
+    <string name="atrasButton"></string>
+
+    <!-- ***************************************** -->
+    <!--  Textos de "activity_juego_colores.xml"   -->
+    <!-- ***************************************** -->
+
+    <string name="cabecera_juego">¡Vamos a jugar!</string>
+    <string name="colores">Conoce los colores</string>
+    <string name="mezclador">Mezcla los colores</string>
+
+    <!-- ***************************************** -->
+    <!--  Textos de "activity_parte_colores.xml"   -->
+    <!-- ***************************************** -->
+
+    <string name="descrip_colores_principales">Colores Primarios</string>
+    <string name="descrip_colores_secundarios">Colores Secundarios</string>
+
+    <!-- ***************************************** -->
+    <!-- ***************** CMYK ****************** -->
+    <!-- ***************************************** -->
+    <string name="magenta">Magenta</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="cian">Cian</string>
+
+    <!-- ***************************************** -->
+    <!-- ********** DERIVADOR DE CMYK ************ -->
+    <!-- ***************************************** -->
+    <string name="verde">Verde</string>
+    <string name="violeta">Violeta</string>
+    <string name="naranja">Naranja</string>
+    <string name="rosa">Rosa</string>
+    <string name="azul">Azul</string>
+    <string name="gris">Gris</string>
+    <string name="rojo">Rojo</string>
+
+    <!-- ***************************************** -->
+    <!-- **************** OTROS ****************** -->
+    <!-- ***************************************** -->
+    <string name="blanco">Blanco</string>
+    <string name="negro">Negro</string>
+
+    <!-- ***************************************** -->
+    <!--  Textos de "activity_parte_mezclador.xml"   -->
+    <!-- ***************************************** -->
+
+    <string name="pregunta">Mezcla los colores</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#96b330</color>
+    <color name="colorPrimaryDark">#bbd448</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="lienzoColor">#ffffff</color>
+    <color name="transparente">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="gris_claro">#F5F5F5</color>
+    <color name="dialogo_bg">#e8e8e8</color>
+
+    <!-- ********************************* -->
+    <!-- Colores siguiendo Material Design -->
+    <!-- ********************************* -->
+
+    <color name="color_encabezado">#ffffff</color>
+    <color name="color_cuerpo_inicio">#ffffff</color>
+    <color name="botones_flotantes">#bbd448</color>
+
+    <!-- Colores de la paleta -->
+    <color name="rojo">#ff0000</color>
+    <color name="amarillo">#ffff00</color>
+    <color name="azul">#0000ff</color>
+    <color name="violeta">#9600ff</color>
+    <color name="verde">#00ff00</color>
+    <color name="naranja">#ff8100</color>
+    <color name="rosa">#ff81c8</color>
+    <color name="blanco">#ffffff</color>
+    <color name="negro">#000000</color>
+    <color name="gris">#c6c4c4</color>
+
+</resources>

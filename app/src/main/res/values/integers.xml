@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="RojoRGB">
+        <item>255</item>
+        <item>0</item>
+        <item>0</item>
+     </integer-array>
+    <integer-array name="VerdeRGB">
+        <item>0</item>
+        <item>255</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="AzulRGB">
+        <item>0</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="AmarilloRGB">
+        <item>255</item>
+        <item>255</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="NaranjaRGB">
+        <item>244</item>
+        <item>70</item>
+        <item>17</item>
+    </integer-array>
+    <integer-array name="MoradoRGB">
+        <item>150</item>
+        <item>0</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="RosaRGB">
+        <item>222</item>
+        <item>76</item>
+        <item>138</item>
+    </integer-array>
+</resources>
