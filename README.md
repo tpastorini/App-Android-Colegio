@@ -1,4 +1,4 @@
-# Aplicacion Android Colegio
+# App Android Colegio
 Aplicación de Android para la asignatura PDM (Programación de Dispositivos Móviles)
 
 Esta aplicación tiene varias pantallas: 
