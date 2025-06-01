@@ -1,8 +1,7 @@
-# App Android Colegio
-Aplicación de Android para la asignatura PDM (Programación de Dispositivos Móviles)
+# App Android School 
 
-Esta aplicación tiene varias pantallas: 
+This application has different screens: 
 
-- Dibujar. Para realizar dibujo libre sobre la pantalla. 
-- Colorear. De momento tiene la misma funcionalidad que Dibujar pero con una imagen de fondo.
-- Juego con colores. Tiene dos partes, una para conocer los colores básicos y algunos derivados, y otra parte en la que se pueden mezclar dos colores y ver el resultado final.
+- Freehand drawing. The user can do freehand draws on the screen. 
+- Painting. The user can paint over a background image.
+- Colors game. It has two parts, on one hand, it's for learning basic colors and derivatives, and on the other hand, it's possible to mix two colors and learn about the result.
